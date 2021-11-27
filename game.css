@@ -1,7 +1,7 @@
 body
-{
+{	
 	background-image: url("https://s3-whjr-v2-prod-bucket.whjr.online/5371cc24-7b85-490e-9a3f-bfcfdfbf278e.png");
-}
+	background-size: 100%;}
 
 
 	.login_div1 , .login_div2
@@ -78,4 +78,23 @@ h4{
 }
 h4:hover{
 	text-decoration: underline;
+}
+
+#player1_score{
+	color: white;
+	text-decoration: underline;
+	font-size: 20;
+}
+#player2_score{
+	color: white;
+	text-decoration: underline;
+	font-size: 20;
+}
+
+#player_question{
+	color : white !important;
+
+}
+#player_answer{
+	color: white !important;
 }
